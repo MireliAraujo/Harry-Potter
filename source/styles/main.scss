@@ -1,0 +1,7 @@
+@use 'variaveis.variaveis';
+@use 'config.reset';
+
+body {
+    background-color: variaveis.$corFundo;
+}
+
