@@ -1,0 +1,15 @@
+@use 'variaveis/variaveis';
+@use 'config/reset';
+
+#personagens{ 
+    
+    background-color: variaveis.$corSecundaria;
+
+    img{
+        height: 450px;
+    }
+
+    p, h3, h2{
+        color: #fff;
+    }
+}

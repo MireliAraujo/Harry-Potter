@@ -1,0 +1,35 @@
+@use './variaveis/variaveis';
+@use 'config/reset';
+
+#sobre{
+    padding: 35px;
+    color: #fff;
+    background-color: variaveis.$corPrincipal;
+    
+    .container-sobre{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .container-sobre img{
+        height: 250px;
+    }
+
+    .container-sobre p{
+        padding:0 30px;
+        font-size: 20px;
+    }
+
+    .gryffindor, .slytherin, .hufflepuff, .ravenclaw{
+        height: 350px;
+
+        p{
+            font-size: 24px;
+        }
+
+        .casas{
+            display: flex;
+        }
+    }
+}

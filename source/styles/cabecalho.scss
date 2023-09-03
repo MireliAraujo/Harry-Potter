@@ -1,0 +1,29 @@
+@use 'variaveis/variaveis';
+@use 'config/reset';
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    background-color: #000;
+    font-size: 24px;
+
+    h2{
+        font-size: 48px;
+        color: #fff;
+    }
+
+    nav ul{
+        display: flex;
+    }
+
+    nav ul li{
+        list-style: none;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        margin-left: 15px;
+        color: #fff;
+    }
+}

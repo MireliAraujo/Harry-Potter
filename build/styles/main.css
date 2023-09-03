@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
+  background-color: #000;
+  font-size: 24px;
+}
+header h2 {
+  font-size: 48px;
+  color: #fff;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  margin-left: 15px;
+  color: #fff;
+}
+
+#sobre {
+  padding: 35px;
+  color: #fff;
+  background-color: rgb(145, 145, 240);
+}
+#sobre .container-sobre {
+  display: flex;
+  justify-content: space-between;
+}
+#sobre .container-sobre img {
+  height: 250px;
+}
+#sobre .container-sobre p {
+  padding: 0 30px;
+  font-size: 20px;
+}
+#sobre .gryffindor, #sobre .slytherin, #sobre .hufflepuff, #sobre .ravenclaw {
+  height: 350px;
+}
+#sobre .gryffindor p, #sobre .slytherin p, #sobre .hufflepuff p, #sobre .ravenclaw p {
+  font-size: 24px;
+}
+#sobre .gryffindor .casas, #sobre .slytherin .casas, #sobre .hufflepuff .casas, #sobre .ravenclaw .casas {
+  display: flex;
+}
+
+#personagens {
+  background-color: green;
+}
+#personagens img {
+  height: 450px;
+}
+#personagens p, #personagens h3, #personagens h2 {
+  color: #fff;
+}
+
+#feiticos {
+  font-size: 24px;
+}
+#feiticos h4, #feiticos button {
+  font-family: "MedievalSharp", "cursive";
+}
+#feiticos .feiticos-descricao {
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+}
+#feiticos .feiticos-descricao .desc-efeito {
+  display: flex;
+  flex-direction: row;
+}
+#feiticos .feiticos-descricao img {
+  height: 500px;
+}
+
+#contato {
+  margin: 60px 0;
+}
+
+footer {
+  background-color: rgba(255, 255, 0, 0.795);
+  padding: 30px 0;
+}
+
+h2 {
+  font-family: "Henny Penny", "cursive";
+  font-size: 48px;
+  text-align: center;
+}
+
+h5 {
+  color: green;
+  font-size: 24px;
+}
+
+.imagem-ilustracao-feiticos {
+  height: 200px;
+}
+
+.buttons-feiticos button {
+  margin-bottom: 5px;
+}

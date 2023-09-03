@@ -1,7 +1,25 @@
-@use 'variaveis.variaveis';
-@use 'config.reset';
+@use 'variaveis/variaveis';
+@use 'cabecalho';
+@use 'sobre';
+@use 'personagens';
+@use 'feiticos';
+@use 'config/reset';
+@use 'contato';
+@use 'footer';
 
-body {
-    background-color: variaveis.$corFundo;
+h2{
+    font-family: variaveis.$fontSecundaria;
+    font-size: 48px;
+    text-align: center;
+}
+h5{
+    color: variaveis.$corSecundaria;
+    font-size: 24px;
+}
+.imagem-ilustracao-feiticos{
+    height: 200px;
 }
 
+.buttons-feiticos button{
+    margin-bottom: 5px;
+}

@@ -5,7 +5,7 @@ const imagemin = require('gulp-imagemin');
 
 function compilaSass(){
     return gulp.src('./source/styles/main.scss')
-        .pipe(sass())
+        .pipe(sass().on('erro', sass.logError))
         .pipe(gulp.dest('./build/styles'));
         
 }
@@ -16,8 +16,9 @@ function comprimeImages() {
         .pipe(gulp.dest('./build/images'));
 }
 
-
-exports.default = function() {
-    gulp.watch('./source/styles/*.scss', { ignoreInitial:false }, gulp.series(compilaSass));
-    gulp.watch('./source/images/*', { ignoreInitial:false }, gulp.series(comprimeImages));
+function  watchFiles() {
+    gulp.watch('./source/styles/**/*.scss', gulp.series(compilaSass));
+    gulp.watch('./source/images/**/*', gulp.series(comprimeImages));
 }
+
+exports.default = gulp.series(compilaSass, comprimeImages, watchFiles);
