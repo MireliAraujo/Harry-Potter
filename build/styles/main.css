@@ -42,7 +42,7 @@ header .logo-lua {
 #sobre {
   padding: 35px;
   color: #fff;
-  background-color: rgb(145, 145, 240);
+  background-color: rgb(182, 34, 34);
 }
 #sobre .container-sobre {
   display: flex;
@@ -126,14 +126,26 @@ header .logo-lua {
   height: 50px;
   background-color: #c0baba;
 }
-#contato ::placeholder {
+#contato form ::placeholder {
   color: green;
   text-align: center;
 }
+#contato form button {
+  height: 55px;
+  width: 150px;
+  border: 2px solid #FFD700;
+  border-radius: 10px;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  color: green;
+  background-color: #c0baba;
+  margin-left: 15px;
+}
 
 footer {
-  background-color: rgba(255, 255, 0, 0.795);
+  background-color: #000;
   padding: 30px 0;
+  color: #fff;
 }
 footer ul {
   list-style: none;
@@ -147,7 +159,7 @@ footer ul a {
   margin-top: 24px;
 }
 footer ul a span {
-  color: rgb(116, 75, 0);
+  color: rgb(187, 123, 4);
   font-family: "MedievalSharp", "cursive";
   font-size: 36px;
 }

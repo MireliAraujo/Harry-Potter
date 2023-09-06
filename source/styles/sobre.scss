@@ -5,34 +5,26 @@
     padding: 35px;
     color: #fff;
     background-color: variaveis.$corPrincipal;
-    
     .container-sobre{
         display: flex;
         justify-content: space-between;
-        margin-top: 150px;
-        
+        margin-top: 150px;   
     }
-
     .container-sobre img{
         height: 250px;
     }
-
     .container-sobre p{
         padding:0 30px;
         font-size: 20px;
     }
-
     .gryffindor, .slytherin, .hufflepuff, .ravenclaw{
         height: 350px;
-
         p{
             font-size: 24px;
         }
-
         .casas{
             display: flex;
         }
-
         img{
             height: 200px;
             margin-right: 20px;

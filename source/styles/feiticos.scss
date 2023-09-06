@@ -3,22 +3,18 @@
 
 #feiticos{
     font-size: 24px;
-
     h4, button{
         font-family: variaveis.$fontFeiticos;
     }
-
     .feiticos-descricao{
         display: flex;
         flex-direction: row;
         font-size: 24px;
-
         .desc-efeito{
             display: flex;
             flex-direction: row;
             
         }
-
         img{
             height: 500px;
         }

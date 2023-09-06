@@ -6,7 +6,6 @@
 @use 'config/reset';
 @use 'contato';
 @use 'footer';
-
 h2{
     font-family: variaveis.$fontSecundaria;
     font-size: 48px;
@@ -19,11 +18,9 @@ h5{
 .imagem-ilustracao-feiticos{
     height: 200px;
 }
-
 .buttons-feiticos button{
     margin-bottom: 5px;
 }
-
 .dark#corpo, .dark#sobre, .dark#rodape, .dark#personagens {
     background-color: #000;
     color: #fff;
