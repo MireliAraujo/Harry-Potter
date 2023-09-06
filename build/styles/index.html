@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=MedievalSharp&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=MedievalSharp&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="../lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
 
     <link rel="stylesheet" href="main.css">
     <title>Harry Potter</title>
 </head>
+
 <body>
-    <header> 
+    <header>
         <h2>Harry Potter</h2>
         <nav>
             <ul>
@@ -33,417 +42,553 @@
                 <li>
                     <a href="#sites-uteis">Sites Úteis</a>
                 </li>
-                <i class="bi bi-sun-fill"></i>
-                <i class="bi bi-moon-fill"></i>
+
+                <i class="fa-solid fa-moon logo-lua" id="lua"></i>
+
             </ul>
         </nav>
     </header>
-    <main>
-    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">    
-        <section id="sobre">
-            <div class="container-sobre">
-            <p>
-                Harry Potter é uma série de sete romances de fantasia escrita pela autora britânica J. K. Rowling. A série narra as aventuras de um jovem chamado Harry James Potter, que descobre aos 11 anos de idade que é um bruxo ao ser convidado para estudar na Escola de Magia e Bruxaria de Hogwarts. O arco de história principal diz respeito às amizades de Harry com outros bruxos de sua idade, como Ronald Weasley e Hermione Granger, e também com o diretor de Hogwarts Albus Dumbledore, considerado o maior dos magos, e seus conflitos com o bruxo das trevas Lord Voldemort, que pretende se tornar imortal, conquistar o mundo dos bruxos, subjugar as pessoas não-mágicas e destruir todos aqueles que estão em seu caminho, especialmente Harry Potter, a quem ele considera seu maior rival.
-            </p>
-            <img src="../images/jefferson-bacquey-habrylo-jefferson-bacquey-hogwarts-library-001.jpg" alt="">
-            </div>
-            <div class="container mt-5">
-                <div class="gryffindor">
-                    <h3>Casa Grifinória (Gryffindor)</h3>
-                    <div class="casas">
-                        <img src="../images/grifnoria-removebg-preview.png" alt="">
-                        <p>
-                            A casa Grifinória foi fundada por Godrico Grifinória e é uma das quatro casas da Escola de Magia e Bruxaria de Hogwarts. O próprio Godrico instruiu o Chapéu Seletor para classificar os estudantes que obtivessem as características que ele mais valorizava que era coragem, cavalheirismo e determinação.
-    
-                            As cores de seu brasão correspondem ao elemento fogo e por isso suas cores foram escolhidas, as cores também podem corresponder a um leão; com o escarlate representando sua crina e cauda e o ouro simbolizando sua pelagem.
-                        </p>
+    <main id="corpo">
+        <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+            <section id="sobre">
+                <div class="container-sobre">
+                    <p>
+                        Harry Potter é uma série de sete romances de fantasia escrita pela autora britânica J. K.
+                        Rowling. A série narra as aventuras de um jovem chamado Harry James Potter, que descobre aos 11
+                        anos de idade que é um bruxo ao ser convidado para estudar na Escola de Magia e Bruxaria de
+                        Hogwarts. O arco de história principal diz respeito às amizades de Harry com outros bruxos de
+                        sua idade, como Ronald Weasley e Hermione Granger, e também com o diretor de Hogwarts Albus
+                        Dumbledore, considerado o maior dos magos, e seus conflitos com o bruxo das trevas Lord
+                        Voldemort, que pretende se tornar imortal, conquistar o mundo dos bruxos, subjugar as pessoas
+                        não-mágicas e destruir todos aqueles que estão em seu caminho, especialmente Harry Potter, a
+                        quem ele considera seu maior rival.
+                    </p>
+                    <img src="../images/jefferson-bacquey-habrylo-jefferson-bacquey-hogwarts-library-001.jpg" alt="">
+                </div>
+                <div class="container mt-5">
+                    <div class="gryffindor">
+                        <h3>Grifinória (Gryffindor)</h3>
+                        <div class="casas">
+                            <img src="../images/grifnoria-removebg-preview.png" alt="Logo grifnoria">
+                            <p>
+                                A casa Grifinória foi fundada por Godrico Grifinória e é uma das quatro casas da Escola
+                                de Magia e Bruxaria de Hogwarts. O próprio Godrico instruiu o Chapéu Seletor para
+                                classificar os estudantes que obtivessem as características que ele mais valorizava que
+                                era coragem, cavalheirismo e determinação.
+
+                                As cores de seu brasão correspondem ao elemento fogo e por isso suas cores foram
+                                escolhidas, as cores também podem corresponder a um leão; com o escarlate representando
+                                sua crina e cauda e o ouro simbolizando sua pelagem.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slytherin">
+                        <h3>Sonserina (Slytherin)</h3>
+                        <div class="casas">
+                            <img src="../images/sonserina-removebg-preview.png" id="logo-sonserina"
+                                alt="Logo sonserina">
+                            <p>
+                                A casa Sonserina fundada por Salazar Slytherin é uma das quatro casas da Escola de Magia
+                                e Bruxaria de Hogwarts. Salazar instruiu o Chapéu Seletor para escolher os alunos que
+                                tivessem características como astúcia, desenvoltura, liderança e ambição, que eram as
+                                qualidades no qual Salazar mais prezava.
+
+                                Seu brasão carrega como símbolo uma serpente e tem as cores verde e prata em seu brasão
+                                e carrega uma grande rivalidade com a Grifinória durante o Quadribol.
+                                Sonserina foi a casa de ninguém mais ninguém menos do que Tom Servolo Riddle, ou como
+                                conheceríamos mais tarde, Lord Voldemort.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="hufflepuff">
+                        <h3>Lufa-Lufa (Hufflepuff)</h3>
+                        <div class="casas">
+                            <img src="../images/lufalufa-removebg-preview (1).png" alt="Logo Lufa Lufa">
+                            <p>
+                                A casa Lufa-Lufa foi fundada por Helga Lufa-Lufa é uma das quatro casas da Escola de
+                                Magia e Bruxaria de Hogwarts, sendo conhecida como a casa mais inclusiva do que as
+                                outras três. Trabalho árduo, dedicação, paciência, lealdade e o jogo limpo são
+                                fundamentos que constituem a casa. Seu emblema é um texugo e carrega as cores amarelo e
+                                preto.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ravenclaw">
+                        <h3>Corvinal (Ravenclaw)</h3>
+                        <div class="casas">
+                            <img src="../images/Ravenclaw-removebg-preview.png" alt="Logo Ravenclaw">
+                            <p>
+                                Fundada por Rowena Ravenclaw Corvinal é uma das quatro casas da Escola de Magia e
+                                Bruxaria de Hogwarts. Seus membros são caracterizados por sua inteligência, aprendizado
+                                e sabedoria. Suas cores são o azul e o bronze e seu animal emblemático é uma águia.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="slytherin">
-                    <h3>Casa Sonserina (Slytherin)</h3>
-                    <div class="casas">
-                        <img src="../images/sonserina-removebg-preview.png" alt="">
-                        <p>
-                            A casa Sonserina fundada por Salazar Slytherin é uma das quatro casas da Escola de Magia e Bruxaria de Hogwarts. Salazar instruiu o Chapéu Seletor para escolher os alunos que tivessem características como astúcia, desenvoltura, liderança e ambição, que eram as qualidades no qual Salazar mais prezava.
-    
-                            Seu brasão carrega como símbolo uma serpente e tem as cores verde e prata em seu brasão e carrega uma grande rivalidade com a Grifinória durante o Quadribol.
-                            Sonserina foi a casa de ninguém mais ninguém menos do que Tom Servolo Riddle, ou como conheceríamos mais tarde, Lord Voldemort.
-                        </p>
+            </section>
+
+            <section id="feiticos" class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="section-title text-center mb-5 ">Feitiços</h2>
                     </div>
-                </div>
-                <div class="hufflepuff">
-                    <h3>Casa Lufa-Lufa (Hufflepuff)</h3>
-                    <div class="casas">
-                        <img src="../images/lufalufa-removebg-preview (1).png" alt="">
-                        <p>
-                            A casa Lufa-Lufa foi fundada por Helga Lufa-Lufa é uma das quatro casas da Escola de Magia e Bruxaria de Hogwarts, sendo conhecida como a casa mais inclusiva do que as outras três. Trabalho árduo, dedicação, paciência, lealdade e o jogo limpo são fundamentos que constituem a casa. Seu emblema é um texugo e carrega as cores amarelo e preto.
-                        </p>
-                    </div>
-                </div>
-                <div class="ravenclaw">
-                    <h3>Casa Corvinal (Ravenclaw)</h3>
-                    <div class="casas">
-                        <img src="../images/Ravenclaw-removebg-preview.png" alt="">
-                        <p>
-                            Fundada por Rowena Ravenclaw Corvinal é uma das quatro casas da Escola de Magia e Bruxaria de Hogwarts. Seus membros são caracterizados por sua inteligência, aprendizado e sabedoria. Suas cores são o azul e o bronze e seu animal emblemático é uma águia.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section id="feiticos" class="pt-5 pb-5">
-            <div class="container">
-                <div class="row">
-                    <h2 class="section-title text-center mb-5 ">Feitiços</h2>
-                </div>  
-                <div class="row">
-                    <aside class="col-md-2">
-                        <nav class="nav nav-pills flex-column nav-cardapio">
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#Expelliarmus" class="nav-link fw-bold text-start active ">
-                                Expelliarmus
-                            </button>
+                    <div class="row">
+                        <aside class="col-md-2">
+                            <nav class="nav nav-pills flex-column nav-cardapio">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#Expelliarmus"
+                                    class="nav-link fw-bold text-start active ">
+                                    Expelliarmus
+                                </button>
 
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#Lumos" class="nav-link fw-bold text-start">
-                                Lumos 
-                            </button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#Lumos"
+                                    class="nav-link fw-bold text-start">
+                                    Lumos
+                                </button>
 
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#Nox" class="nav-link fw-bold text-start">
-                                Nox 
-                            </button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#Nox"
+                                    class="nav-link fw-bold text-start">
+                                    Nox
+                                </button>
 
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#Alohomora" class="nav-link fw-bold text-start">
-                                Alohomora 
-                            </button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#Alohomora"
+                                    class="nav-link fw-bold text-start">
+                                    Alohomora
+                                </button>
 
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#Wingardium-Leviosa" class="nav-link fw-bold text-start">
-                                Wingardium Leviosa 
-                            </button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#Wingardium-Leviosa"
+                                    class="nav-link fw-bold text-start">
+                                    Wingardium Leviosa
+                                </button>
 
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#Aguamenti" class="nav-link fw-bold text-start">
-                                Aguamenti 
-                            </button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#Aguamenti"
+                                    class="nav-link fw-bold text-start">
+                                    Aguamenti
+                                </button>
 
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#Expecto-Patronum" class="nav-link fw-bold text-start">
-                                Expecto Patronum 
-                            </button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#Expecto-Patronum"
+                                    class="nav-link fw-bold text-start">
+                                    Expecto Patronum
+                                </button>
 
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#Riddikulus" class="nav-link fw-bold text-start">
-                                Riddikulus 
-                            </button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#Riddikulus"
+                                    class="nav-link fw-bold text-start">
+                                    Riddikulus
+                                </button>
 
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#Petrificus-Totalus" class="nav-link fw-bold text-start">
-                                Petrificus Totalus 
-                            </button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#Petrificus-Totalus"
+                                    class="nav-link fw-bold text-start">
+                                    Petrificus Totalus
+                                </button>
 
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#Protego" class="nav-link fw-bold text-start">
-                                Protego 
-                            </button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#Protego"
+                                    class="nav-link fw-bold text-start">
+                                    Protego
+                                </button>
 
-                        </nav>
-                    </aside>
-                    <div class="col-md-10">
-                        <div class="tab-content">
-                            <div class="tab-pane active" id="Expelliarmus">
-                                <div class="row">
-                                    <div class="col-md-3 feiticos-descricao">
-                                        <div>
-                                            <h4>Expelliarmus</h4>
-                                            <div class="desc-efeito">
-                                                <span>
-                                                    <h5 >Descrição:</h5> 
-                                                    <p class="m-4">
-                                                        Este feitiço é usado para desarmar um oponente, fazendo com que a varinha da pessoa seja arremessada para longe.
-                                                    </p>
-                                                </span>
-                                                <span>
-                                                    <h5>Efeito:</h5> 
-                                                    <p class="m-4">O alvo é desarmado, perdendo temporariamente o controle de sua varinha.</p>
-                                                </span>
-                                            </div>
-                                        </div>
+                            </nav>
+                        </aside>
+                        <div class="col-md-10">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="Expelliarmus">
+                                    <div class="row">
+                                        <div class="col-md-3 feiticos-descricao">
                                             <div>
-                                                <img src="../images/expelliarmus.jfif" alt="expelliarmus">
-                                            </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="Lumos">
-                                <div class="row">
-                                    <div class="col-md-3 feiticos-descricao">
-                                        <div>
-                                            <h4>Lumos</h4>
-                                            <div class="desc-efeito">
-                                                <span>
-                                                    <h5>Descrição:</h5>
-                                                    <p class="m-4">
-                                                        Ao lançar esse feitiço, a ponta da varinha se ilumina como uma lanterna, proporcionando luz ao ambiente.
-                                                    </p>
-                                                </span>
-                                                <span>
-                                                    <h5>Efeito: </h5>
-                                                    <p class="m-4">
-                                                        Cria uma pequena fonte de luz, útil em lugares escuros.
-                                                    </p>
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <img src="../images/lumos.jfif" alt="lumos">
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                            </div>
-
-                            <div class="tab-pane" id="Nox">
-                                <div class="row">
-                                    <div class="col-md-3 feiticos-descricao">
-                                        <div>
-                                            <h4>Nox</h4>
-                                            <div class="desc-efeito">
-                                                <span>
-                                                    <h5>Descrição:</h5>
-                                                    <p class="m-4">
-                                                        É o contrapartida do Lumos. Esse feitiço apaga a luz que foi criada pelo Lumos.
-                                                    </p>
-                                                </span>
-                                                <span>
-                                                    <h5>Efeito: </h5>
-                                                    <p class="m-4">
-                                                        Apaga a fonte de luz criada anteriormente.
-                                                    </p>
-                                                </span>
-                                                <div>
-                                                    <img src="../images/nox.jfif" alt="lumos">
+                                                <h4>Expelliarmus</h4>
+                                                <div class="desc-efeito">
+                                                    <span>
+                                                        <h5>Descrição:</h5>
+                                                        <p class="m-4">
+                                                            Este feitiço é usado para desarmar um oponente, fazendo com
+                                                            que a varinha da pessoa seja arremessada para longe.
+                                                        </p>
+                                                    </span>
+                                                    <span>
+                                                        <h5>Efeito:</h5>
+                                                        <p class="m-4">O alvo é desarmado, perdendo temporariamente o
+                                                            controle de sua varinha.</p>
+                                                    </span>
                                                 </div>
                                             </div>
+                                            <div>
+                                                <img src="../images/feitiço.jpg" alt="Imagem de um frasco de porção">
+                                            </div>
                                         </div>
-                                        
                                     </div>
                                 </div>
-                            </div>
+                                <div class="tab-pane" id="Lumos">
+                                    <div class="row">
+                                        <div class="col-md-3 feiticos-descricao">
+                                            <div>
+                                                <h4>Lumos</h4>
+                                                <div class="desc-efeito">
+                                                    <span>
+                                                        <h5>Descrição:</h5>
+                                                        <p class="m-4">
+                                                            Ao lançar esse feitiço, a ponta da varinha se ilumina como
+                                                            uma lanterna, proporcionando luz ao ambiente.
+                                                        </p>
+                                                    </span>
+                                                    <span>
+                                                        <h5>Efeito: </h5>
+                                                        <p class="m-4">
+                                                            Cria uma pequena fonte de luz, útil em lugares escuros.
+                                                        </p>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <img src="../images/feitiço.jpg" alt="Imagem de um frasco de porção">
+                                            </div>
+                                        </div>
+                                    </div>
 
-                            <div class="tab-pane" id="Alohomora">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <h4>Alohomora</h4>
-                                        <h5>Descrição:</h5>
-                                        <p>
-                                            Um feitiço de destrancamento, usado para abrir fechaduras não-mágicas.
-                                        </p>
-                                        <h5>Efeito: </h5>
-                                        <p>
-                                            Desbloqueia portas e objetos trancados.
-                                        </p>
-                                    </div>
-                                </div>    
-                            </div>
+                                </div>
 
-                            <div class="tab-pane" id="Wingardium-Leviosa">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <h4>Wingardium Leviosa</h4>
-                                        <h5>Descrição:</h5>
-                                        <p>
-                                            Feitiço utilizado para fazer objetos levitarem e flutuarem no ar.
-                                        </p>
-                                        <h5>Efeito: </h5>
-                                        <p>
-                                            Faz com que o objeto alvo levite temporariamente.
-                                        </p>
+                                <div class="tab-pane" id="Nox">
+                                    <div class="row">
+                                        <div class="col-md-3 feiticos-descricao">
+                                            <div>
+                                                <h4>Nox</h4>
+                                                <div class="desc-efeito">
+                                                    <span>
+                                                        <h5>Descrição:</h5>
+                                                        <p class="m-4">
+                                                            É o contrapartida do Lumos. Esse feitiço apaga a luz que foi
+                                                            criada pelo Lumos.
+                                                        </p>
+                                                    </span>
+                                                    <span>
+                                                        <h5>Efeito: </h5>
+                                                        <p class="m-4">
+                                                            Apaga a fonte de luz criada anteriormente.
+                                                        </p>
+                                                    </span>
+                                                    <div>
+                                                        <img src="../images/feitiço.jpg"
+                                                            alt="Imagem de um frasco de porção">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane" id="Alohomora">
+                                    <div class="row">
+                                        <div class="col-md-3 feiticos-descricao">
+                                            <div>
+                                                <h4>Alohomora</h4>
+                                                <div class="desc-efeito">
+                                                    <span>
+                                                        <h5>Descrição:</h5>
+                                                        <p class="m-4">
+                                                            Um feitiço de destrancamento, usado para abrir fechaduras
+                                                            não-mágicas.
+                                                        </p>
+                                                    </span>
+                                                    <span>
+                                                        <h5>Efeito: </h5>
+                                                        <p class="m-4">
+                                                            Desbloqueia portas e objetos trancados.
+                                                        </p>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <img src="../images/feitiço.jpg" alt="Imagem de um frasco de porção">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane" id="Wingardium-Leviosa">
+                                    <div class="row">
+                                        <div class="col-md-3 feiticos-descricao">
+                                            <div>
+                                                <h4>Wingardium Leviosa</h4>
+                                                <div class="desc-efeito">
+                                                    <span>
+                                                        <h5>Descrição:</h5>
+                                                        <p class="m-4">
+                                                            Feitiço utilizado para fazer objetos levitarem e flutuarem
+                                                            no ar.
+                                                        </p>
+                                                    </span>
+                                                    <span>
+                                                        <h5>Efeito: </h5>
+                                                        <p class="m-4">
+                                                            Faz com que o objeto alvo levite temporariamente.
+                                                        </p>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <img src="../images/feitiço.jpg" alt="Imagem de um frasco de porção">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="Aguamenti">
+                                    <div class="row">
+                                        <div class="col-md-3 feiticos-descricao">
+                                            <div>
+                                                <h4>Aguamenti </h4>
+                                                <div class="desc-efeito">
+                                                    <span>
+                                                        <h5>Descrição:</h5>
+                                                        <p class="m-4">
+                                                            Produz um jato de água a partir da ponta da varinha.
+                                                        </p>
+                                                    </span>
+                                                    <span>
+                                                        <h5>Efeito: </h5>
+                                                        <p class="m-4">
+                                                            Cria uma fonte de água útil para extinguir incêndios ou
+                                                            encher
+                                                            recipientes.
+                                                        </p>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <img src="../images/feitiço.jpg" alt="Imagem de um frasco de porção">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="Expecto-Patronum">
+                                    <div class="row">
+                                        <div class="col-md-3 feiticos-descricao">
+                                            <div>
+                                                <h4>Expecto Patronum </h4>
+                                                <div class="desc-efeito">
+                                                    <span>
+                                                        <h5>Descrição:</h5>
+                                                        <p class="m-4">
+                                                            Conjura um Patrono, uma forma de energia positiva, que
+                                                            repele os
+                                                            Dementadores e outras criaturas das trevas.
+                                                        </p>
+                                                    </span>
+                                                    <span>
+                                                        <h5>Efeito: </h5>
+                                                        <p class="m-4">
+                                                            Protege o conjurador e outras pessoas contra as influências
+                                                            negativas
+                                                            das criaturas das trevas.
+                                                        </p>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <img src="../images/feitiço.jpg" alt="Imagem de um frasco de porção">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="Riddikulus">
+                                    <div class="row">
+                                        <div class="col-md-3 feiticos-descricao">
+                                            <div>
+                                                <h4>Riddikulus </h4>
+                                                <div class="desc-efeito">
+                                                    <span>
+                                                        <h5>Descrição:</h5>
+                                                        <p class="m-4">
+                                                            Usado contra um Bicho-Papão, esse feitiço transforma a forma
+                                                            amedrontadora da criatura em algo engraçado,
+                                                            enfraquecendo-a.
+                                                        </p>
+                                                    </span>
+                                                    <span>
+                                                        <h5>Efeito: </h5>
+                                                        <p class="m-4">
+                                                            Altera a aparência do Bicho-Papão e diminui seu poder de
+                                                            assustar.
+                                                        </p>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <img src="../images/feitiço.jpg" alt="Imagem de um frasco de porção">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="Petrificus-Totalus">
+                                    <div class="row">
+                                        <div class="col-md-3 feiticos-descricao">
+                                            <div>
+                                                <h4>Petrificus Totalus </h4>
+                                                <div class="desc-efeito">
+                                                    <span>
+                                                        <h5>Descrição:</h5>
+                                                        <p class="m-4">
+                                                            Um feitiço de imobilização que paralisa completamente o
+                                                            alvo, deixando-o rígido como uma estátua.
+                                                        </p>
+                                                    </span>
+                                                    <span>
+                                                        <h5>Efeito: </h5>
+                                                        <p class="m-4">
+                                                            Imobiliza temporariamente a pessoa alvo.
+                                                        </p>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <img src="../images/feitiço.jpg" alt="Imagem de um frasco de porção">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="Protego">
+                                    <div class="row">
+                                        <div class="col-md-3 feiticos-descricao">
+                                            <div>
+                                                <h4>Protego </h4>
+                                                <div class="desc-efeito">
+                                                    <span>
+                                                        <h5>Descrição:</h5>
+                                                        <p class="m-4">
+                                                            Cria um escudo protetor que pode bloquear e repelir feitiços
+                                                            direcionados ao conjurador.
+                                                        </p>
+                                                    </span>
+                                                    <span>
+                                                        <h5>Efeito: </h5>
+                                                        <p class="m-4">
+                                                            Cria uma barreira defensiva temporária.
+                                                        </p>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <img src="../images/feitiço.jpg" alt="Imagem de um frasco de porção">
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane" id="Aguamenti">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <h4>Aguamenti </h4>
-                                        <h5>Descrição:</h5>
-                                        <p>
-                                            Produz um jato de água a partir da ponta da varinha.
-                                        </p>
-                                        <h5>Efeito: </h5>
-                                        <p>
-                                            Cria uma fonte de água útil para extinguir incêndios ou encher recipientes.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="Expecto-Patronum">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <h4>Expecto Patronum </h4>
-                                        <h5>Descrição:</h5>
-                                        <p>
-                                            Conjura um Patrono, uma forma de energia positiva, que repele os Dementadores e outras criaturas das trevas.
-                                        </p>
-                                        <h5>Efeito: </h5>
-                                        <p>
-                                            Protege o conjurador e outras pessoas contra as influências negativas das criaturas das trevas.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="Riddikulus">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <h4>Riddikulus </h4>
-                                        <h5>Descrição:</h5>
-                                        <p>
-                                            Usado contra um Bicho-Papão, esse feitiço transforma a forma amedrontadora da criatura em algo engraçado, enfraquecendo-a.
-                                        </p>
-                                        <h5>Efeito: </h5>
-                                        <p>
-                                            Altera a aparência do Bicho-Papão e diminui seu poder de assustar.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="Petrificus-Totalus">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <h4>Petrificus Totalus </h4>
-                                        <h5>Descrição:</h5>
-                                        <p>
-                                            Um feitiço de imobilização que paralisa completamente o alvo, deixando-o rígido como uma estátua.
-                                        </p>
-                                        <h5>Efeito: </h5>
-                                        <p>
-                                            Imobiliza temporariamente a pessoa alvo.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="Protego">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <h4>Protego </h4>
-                                        <h5>Descrição:</h5>
-                                        <p>
-                                            Cria um escudo protetor que pode bloquear e repelir feitiços direcionados ao conjurador.
-                                        </p>
-                                        <h5>Efeito: </h5>
-                                        <p>
-                                            Cria uma barreira defensiva temporária.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                     
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="personagens" class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <h2>Personagens</h2>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded mb-2" src="../images/harryPotter.jfif"
+                                alt="Foto Harry Potter">
+                            <h3 class="section-title text-colored fs-4">
+                                Harry Potter
+                            </h3>
+                            <p>O protagonista da série, um bruxo famoso por sobreviver ao ataque do bruxo das trevas
+                                Lord Voldemort quando era bebê. Ele frequenta a Escola de Magia e Bruxaria de Hogwarts..
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded mb-2" src="../images/hermione.jfif" alt="Foto Hermione">
+                            <h3 class=" fs-4">
+                                Hermione Granger
+                            </h3>
+                            <p>Melhor amiga de Harry, Hermione é uma bruxa extremamente inteligente e dedicada. Ela é
+                                conhecida por sua habilidade em feitiços e sua paixão pelo estudo.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded mb-2" src="../images/ron.jfif" alt="Foto Ron Weasley">
+                            <h3 class="fs-4">
+                                Ron Weasley
+                            </h3>
+                            <p>Outro dos melhores amigos de Harry, Ron é um bruxo leal e engraçado. Ele vem de uma
+                                família grande e amorosa e tem uma forte conexão com sua família.</p>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded mb-2" src="../images/Albus.jfif"
+                                alt="Foto Albus Dambledore">
+                            <h3 class="fs-4">
+                                Albus Dumbledore
+                            </h3>
+                            <p>O diretor de Hogwarts durante grande parte da série, Dumbledore é um dos bruxos mais
+                                poderosos e sábios. Ele é um mentor para Harry e luta contra as forças das trevas.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded mb-2" src="../images/Severo.jfif" alt="Foto Severo Snape">
+                            <h3 class="fs-4">
+                                Severo Snape
+                            </h3>
+                            <p>Professor de Poções em Hogwarts, Snape é inicialmente retratado como antagonista, mas sua
+                                verdadeira natureza é complexa e reveladora ao longo da série.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded mb-2" src="../images/Voldemort.jfif"
+                                alt="Foto Lord Voldemort">
+                            <h3 class="fs-4">
+                                Lord Voldemort (Tom Riddle)
+                            </h3>
+                            <p>O principal antagonista da série, Voldemort é um bruxo das trevas obcecado pelo poder e
+                                pela pureza do sangue bruxo. Ele é o responsável pela morte dos pais de Harry.</p>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded mb-2" src="../images/Rubeus.jfif"
+                                alt="Foto Rubeus Hagrid">
+                            <h3 class="fs-4">
+                                Rubeus Hagrid
+                            </h3>
+                            <p>O guarda-caça de Hogwarts, Hagrid é um homem grande e gentil que tem uma profunda afeição
+                                por criaturas mágicas. Ele é um amigo próximo de Harry.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded mb-2" src="../images/Gina.jfif" alt="Foto Gina Weasley">
+                            <h3 class="fs-4">
+                                Gina Weasley
+                            </h3>
+                            <p>Irmã mais nova de Ron, Gina é uma bruxa talentosa e corajosa. Ela se torna uma jogadora
+                                de quadribol e está envolvida romanticamente com Harry.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded mb-2" src="../images/Luna.jfif" alt="Foto Luna Lovegood">
+                            <h3 class="fs-4">
+                                Luna Lovegood
+                            </h3>
+                            <p>Uma colega excêntrica de Harry e seus amigos. Luna acredita em criaturas e fenômenos
+                                mágicos incomuns e se torna uma aliada valiosa.</p>
+                        </div>
                     </div>
                 </div>
+            </section>
 
-            </div>  
-        </section>
+            <section id="contato">
+                <div class="container">
+                    <h2>Contato</h2>
+                    <form>
+                        <label for="nome">Seu nome: </label>
+                        <input type="text" nome="nome" id="nome" placeholder="Digite seu nome">
 
-        <section id="personagens" class="pt-5 pb-5">
-            <div class="container">
-                <div class="row">
-                    <h2>Personagens</h2>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-md-4">
-                        <img class="d-block w-100 rounded mb-2" src="../images/harryPotter.jfif"
-                            alt="Foto Harry Potter">
-                        <h3 class="section-title text-colored fs-4">
-                            Harry Potter
-                        </h3>
-                        <p>O protagonista da série, um bruxo famoso por sobreviver ao ataque do bruxo das trevas Lord Voldemort quando era bebê. Ele frequenta a Escola de Magia e Bruxaria de Hogwarts..</p>
-                    </div>
-                    <div class="col-md-4">
-                        <img class="d-block w-100 rounded mb-2" src="../images/hermione.jfif"
-                            alt="Foto Hermione">
-                        <h3 class=" fs-4">
-                            Hermione Granger
-                        </h3>
-                        <p>Melhor amiga de Harry, Hermione é uma bruxa extremamente inteligente e dedicada. Ela é conhecida por sua habilidade em feitiços e sua paixão pelo estudo.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <img class="d-block w-100 rounded mb-2"
-                            src="../images/ron.jfif" alt="Foto Ron Weasley">
-                        <h3 class="fs-4">
-                            Ron Weasley
-                        </h3>
-                        <p>Outro dos melhores amigos de Harry, Ron é um bruxo leal e engraçado. Ele vem de uma família grande e amorosa e tem uma forte conexão com sua família.</p>
-                    </div>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-md-4">
-                        <img class="d-block w-100 rounded mb-2" src="../images/Albus.jfif"
-                            alt="Foto Albus Dambledore">
-                        <h3 class="fs-4">
-                            Albus Dumbledore
-                        </h3>
-                        <p>O diretor de Hogwarts durante grande parte da série, Dumbledore é um dos bruxos mais poderosos e sábios. Ele é um mentor para Harry e luta contra as forças das trevas.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <img class="d-block w-100 rounded mb-2" src="../images/Severo.jfif"
-                            alt="Foto Severo Snape">
-                        <h3 class="fs-4">
-                            Severo Snape
-                        </h3>
-                        <p>Professor de Poções em Hogwarts, Snape é inicialmente retratado como antagonista, mas sua verdadeira natureza é complexa e reveladora ao longo da série.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <img class="d-block w-100 rounded mb-2"
-                            src="../images/Voldemort.jfif" alt="Foto Lord Voldemort">
-                        <h3 class="fs-4">
-                            Lord Voldemort (Tom Riddle)
-                        </h3>
-                        <p>O principal antagonista da série, Voldemort é um bruxo das trevas obcecado pelo poder e pela pureza do sangue bruxo. Ele é o responsável pela morte dos pais de Harry.</p>
-                    </div>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-md-4">
-                        <img class="d-block w-100 rounded mb-2" src="../images/Rubeus.jfif"
-                            alt="Foto Rubeus Hagrid">
-                        <h3 class="fs-4">
-                            Rubeus Hagrid
-                        </h3>
-                        <p>O guarda-caça de Hogwarts, Hagrid é um homem grande e gentil que tem uma profunda afeição por criaturas mágicas. Ele é um amigo próximo de Harry.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <img class="d-block w-100 rounded mb-2" src="../images/Gina.jfif"
-                            alt="Foto Gina Weasley">
-                        <h3 class="fs-4">
-                            Gina Weasley
-                        </h3>
-                        <p>Irmã mais nova de Ron, Gina é uma bruxa talentosa e corajosa. Ela se torna uma jogadora de quadribol e está envolvida romanticamente com Harry.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <img class="d-block w-100 rounded mb-2"
-                            src="../images/Luna.jfif" alt="Foto Luna Lovegood">
-                        <h3 class="fs-4">
-                            Luna Lovegood
-                        </h3>
-                        <p>Uma colega excêntrica de Harry e seus amigos. Luna acredita em criaturas e fenômenos mágicos incomuns e se torna uma aliada valiosa.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section id="contato">
-            <div class="container">
-                <h2>Contato</h2>
-            <form>
-                <label for="nome">Seu nome: </label>
-                <input type="text" nome="nome" id="nome" placeholder="Digite seu nome">
+                        <label for="email">Seu melhor E-mail:</label>
+                        <input type="email" name="email" id="email" placeholder="Seu E-mail">
 
-                <label for="email">Seu melhor E-mail:</label>
-                <input type="email" name="email" id="email">
-
-                <button type="submit">Enviar</button>
-            </form>
-            </div>
-        </section>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </section>
     </main>
-    <footer>
+    <footer id="rodape">
         <div id="sites-uteis">
             <h2>Sites Úteis</h2>
             <ul>
                 <li>
-                    <a href="#">Piticas - compre roupas, acessórios e colecionáveis.</a>
+                    <a href="#"><span>Piticas</span> - compre roupas, acessórios e colecionáveis.</a>
                 </li>
                 <li>
                     <a href="">Assista todos os filmes na HBO</a>
@@ -459,5 +604,7 @@
     </footer>
 
     <script src="../lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+    <script src="../scripts/main.js"></script>
 </body>
+
 </html>

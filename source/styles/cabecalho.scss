@@ -7,6 +7,10 @@ header {
     padding: 35px;
     background-color: #000;
     font-size: 24px;
+    position: fixed;
+    max-width: 100vw;
+    width: 100%;
+    margin-top: 0px;
 
     h2{
         font-size: 48px;
@@ -24,6 +28,14 @@ header {
     nav ul li a{
         text-decoration: none;
         margin-left: 15px;
+        color: variaveis.$corDourada;
+        font-family: variaveis.$fontSecundaria;
+    }
+
+    .logo-lua{
         color: #fff;
+        font-size: 24px;
+        margin-left: 20px;
+        cursor: pointer;
     }
 }

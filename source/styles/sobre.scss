@@ -9,6 +9,7 @@
     .container-sobre{
         display: flex;
         justify-content: space-between;
+        margin-top: 150px;
         
     }
 
@@ -30,6 +31,15 @@
 
         .casas{
             display: flex;
+        }
+
+        img{
+            height: 200px;
+            margin-right: 20px;
+        }
+        #logo-sonserina{
+            height: 250px;
+            margin-left: -60px;
         }
     }
 }
